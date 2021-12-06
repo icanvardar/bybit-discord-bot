@@ -1,0 +1,30 @@
+{
+  "name": "pybit-test",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "env NODE_ENV=production node index",
+    "dev": "env NODE_ENV=development node index"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@discordjs/builders": "^0.8.2",
+    "@discordjs/rest": "^0.1.0-canary.0",
+    "bluebird": "^3.7.2",
+    "bybit-api": "^2.1.5",
+    "chalk": "^4.1.2",
+    "discord-api-types": "^0.24.0",
+    "discord.js": "^13.3.1",
+    "dotenv": "^10.0.0",
+    "moment": "^2.29.1",
+    "moment-timezone": "^0.5.34",
+    "sqlite3": "^5.0.2"
+  },
+  "devDependencies": {
+    "nodemon": "^2.0.14"
+  }
+}
